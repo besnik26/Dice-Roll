@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: navy;
+}
+nav a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 37px;
+}
+.one-dice-text p{
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+}
+.one-dice-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imagee{
+    height: auto;
+    width: 250px;
+}
+.one-dice-button{
+    text-align: center;
+}
+.one-dice-button button{
+    padding: 8px 30px;
+}
