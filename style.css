@@ -28,7 +28,7 @@ nav a {
     flex-direction: row;
     justify-content: center;
 }
-.imagee{
+#diceimg{
     height: auto;
     width: 250px;
 }
@@ -37,4 +37,15 @@ nav a {
 }
 .one-dice-button button{
     padding: 8px 30px;
+}
+footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: navy;
+  color: crimson;
+  text-align: center;
+  padding: 20px;
+
 }
